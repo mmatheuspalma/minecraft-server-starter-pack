@@ -1,5 +1,4 @@
-## Schaeppi Server
-Hi, this is a repository to versionate our minecraft server
+## Minecraft Server
 
 ### Requirements
 - Java
