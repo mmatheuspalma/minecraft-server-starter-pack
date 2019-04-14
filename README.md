@@ -17,7 +17,7 @@ Open terminal on folder and start the minecraft server
 #### Let's create a tunnel for your local network 
 After start server, open the ngrok application, and type
 ````shell
-    ngrok tcp us 2019
+    ngrok tcp the_server_port --region us 
 ````
 
 After this, copy the url and share with us
