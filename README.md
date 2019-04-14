@@ -19,4 +19,4 @@ After start server, open the ngrok application, and type
     ngrok tcp the_server_port --region us 
 ````
 
-After this, copy the url and share with us
+After this, copy the url and share with your friends

@@ -70,3 +70,15 @@ Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLeni
 [03:18:31] [Server thread/INFO]: palmusk joined the game
 [03:18:37] [Server thread/INFO]: palmusk lost connection: Disconnected
 [03:18:37] [Server thread/INFO]: palmusk left the game
+[03:23:50] [Server thread/INFO]: Stopping server
+[03:23:50] [Server thread/INFO]: Saving players
+[03:23:50] [Server thread/INFO]: Saving worlds
+[03:23:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[03:23:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[03:23:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[03:23:50] [Server Shutdown Thread/INFO]: Stopping server
+[03:23:50] [Server Shutdown Thread/INFO]: Saving players
+[03:23:50] [Server Shutdown Thread/INFO]: Saving worlds
+[03:23:50] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[03:23:50] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[03:23:50] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
