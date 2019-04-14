@@ -1,11 +1,23 @@
 ## Schaeppi Server
 Hi, this is a repository to versionate our minecraft server
 
+### Requirements
+- Java
+- Java JDK
+- Ngrok
 
 ### Running
-Open the nrok, and type commands 
+
+#### Starting server
+Open terminal on folder and start the minecraft server
+````shell
+    java -server -Xmx2048M -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=2 -XX:+AggressiveOpts -jar server.jar
+````
+
+#### Let's create a tunnel for your local network 
+After start server, open the ngrok application, and type
 ````shell
     ngrok tcp us 2019
 ````
 
-After this, copy the url :)
+After this, copy the url and share with us
