@@ -1,84 +1,44 @@
-[03:17:27] [main/WARN]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:17:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:17:27] [main/WARN]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:17:27] [main/WARN]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[03:17:27] [main/WARN]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[03:17:27] [main/INFO]: Loaded 0 recipes
-[03:17:27] [main/INFO]: Loaded 0 advancements
-[03:17:28] [Server thread/INFO]: Starting minecraft server version 1.13.2
-[03:17:28] [Server thread/INFO]: Loading properties
-[03:17:28] [Server thread/INFO]: Default game type: SURVIVAL
-[03:17:28] [Server thread/INFO]: Generating keypair
-[03:17:28] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:2019
-[03:17:28] [Server thread/INFO]: Using default channel type
-[03:17:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:17:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:17:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[03:17:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:17:29] [Server thread/WARN]: Failed to load white-list: 
-com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 2 path $[0]
-	at xj.a(SourceFile:511) ~[server.jar:?]
-	at xj.a(SourceFile:527) ~[server.jar:?]
-	at vt.g(SourceFile:146) ~[server.jar:?]
-	at sn.E(SourceFile:123) [server.jar:?]
-	at sn.<init>(SourceFile:30) [server.jar:?]
-	at so.d(SourceFile:203) [server.jar:?]
-	at net.minecraft.server.MinecraftServer.run(SourceFile:566) [server.jar:?]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_201]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 2 path $[0]
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1559) ~[server.jar:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1401) ~[server.jar:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:593) ~[server.jar:?]
-	at com.google.gson.stream.JsonReader.hasNext(JsonReader.java:414) ~[server.jar:?]
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:81) ~[server.jar:?]
-	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61) ~[server.jar:?]
-	at xj.a(SourceFile:509) ~[server.jar:?]
-	... 7 more
-[03:17:29] [Server thread/INFO]: Preparing level "world"
-[03:17:29] [Server thread/INFO]: Reloading ResourceManager: Default
-[03:17:30] [Server thread/INFO]: Loaded 524 recipes
-[03:17:31] [Server thread/INFO]: Loaded 571 advancements
-[03:17:31] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 4%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 8%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 12%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 16%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 20%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 24%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 28%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 32%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 36%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 40%
-[03:17:31] [Server thread/INFO]: Preparing spawn area: 44%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 48%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 52%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 56%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 60%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 64%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 68%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 72%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 76%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 80%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 84%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 88%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 92%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 96%
-[03:17:32] [Server thread/INFO]: Preparing spawn area: 100%
-[03:17:32] [Server thread/INFO]: Time elapsed: 1135 ms
-[03:17:32] [Server thread/INFO]: Done (3.096s)! For help, type "help"
-[03:18:31] [Server thread/INFO]: palmusk[/127.0.0.1:57555] logged in with entity id 256 at (-159.97102745635897, 71.0, 19.093693117535054)
-[03:18:31] [Server thread/INFO]: palmusk joined the game
-[03:18:37] [Server thread/INFO]: palmusk lost connection: Disconnected
-[03:18:37] [Server thread/INFO]: palmusk left the game
-[03:23:50] [Server thread/INFO]: Stopping server
-[03:23:50] [Server thread/INFO]: Saving players
-[03:23:50] [Server thread/INFO]: Saving worlds
-[03:23:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[03:23:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[03:23:50] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[03:23:50] [Server Shutdown Thread/INFO]: Stopping server
-[03:23:50] [Server Shutdown Thread/INFO]: Saving players
-[03:23:50] [Server Shutdown Thread/INFO]: Saving worlds
-[03:23:50] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
-[03:23:50] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
-[03:23:50] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[00:02:00] [Server thread/INFO]: <Kirizuro> falou
+[00:03:07] [Server thread/WARN]: palmusk moved too quickly! -0.4954087337844726,-10.688120053561008,0.2987282545682888
+[00:06:13] [Server thread/INFO]: palmusk fell from a high place
+[00:13:09] [Server thread/INFO]: Teleported Kirizuro to palmusk
+[00:18:29] [Server thread/INFO]: Kirizuro has made the advancement [Not Today, Thank You]
+[00:22:12] [Server thread/INFO]: Kirizuro has made the advancement [Getting an Upgrade]
+[00:48:09] [Server thread/INFO]: Teleported Kirizuro to palmusk
+[00:49:27] [Server thread/INFO]: Kirizuro fell from a high place
+[00:52:33] [Server thread/INFO]: Teleported palmusk to Kirizuro
+[00:52:33] [Server thread/WARN]: palmusk moved too quickly! 1.0,-26.0,-0.2701335347724374
+[01:05:13] [Server thread/INFO]: palmusk fell from a high place
+[01:06:07] [Server thread/INFO]: No entity was found
+[01:06:15] [Server thread/INFO]: Teleported palmusk to Kirizuro
+[01:06:15] [Server thread/WARN]: palmusk moved too quickly! 3.532598082964711,25.0,-9.367312852740383
+[01:15:15] [Server thread/INFO]: Kirizuro fell from a high place
+[01:15:51] [Server thread/INFO]: Set the time to 1000
+[01:21:32] [Server thread/INFO]: Teleported palmusk to Kirizuro
+[01:21:32] [Server thread/WARN]: palmusk moved too quickly! 16.44533744153091,-24.0,-7.285600591007167
+[01:30:56] [Server thread/INFO]: Kirizuro was slain by Spider
+[01:34:11] [Server thread/INFO]: Set the time to 0
+[01:43:03] [Server thread/INFO]: palmusk fell from a high place
+[02:07:22] [Server thread/INFO]: <palmusk> alo
+[02:07:39] [Server thread/INFO]: Teleported palmusk to Kirizuro
+[02:08:13] [Server thread/INFO]: palmusk lost connection: Disconnected
+[02:08:13] [Server thread/INFO]: palmusk left the game
+[02:08:53] [Server thread/INFO]: palmusk[/127.0.0.1:57982] logged in with entity id 457052 at (-163.64749959824977, 71.0, 19.73634214630843)
+[02:08:53] [Server thread/INFO]: palmusk joined the game
+[02:12:32] [Server thread/INFO]: Teleported Kirizuro to palmusk
+[02:52:22] [Server thread/INFO]: palmusk lost connection: Disconnected
+[02:52:22] [Server thread/INFO]: palmusk left the game
+[02:52:26] [Server thread/INFO]: Kirizuro lost connection: Disconnected
+[02:52:26] [Server thread/INFO]: Kirizuro left the game
+[02:52:33] [Server thread/INFO]: Stopping server
+[02:52:33] [Server thread/INFO]: Saving players
+[02:52:33] [Server thread/INFO]: Saving worlds
+[02:52:33] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:52:33] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[02:52:33] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
+[02:52:33] [Server Shutdown Thread/INFO]: Stopping server
+[02:52:33] [Server Shutdown Thread/INFO]: Saving players
+[02:52:33] [Server Shutdown Thread/INFO]: Saving worlds
+[02:52:33] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[02:52:33] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_nether
+[02:52:33] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/minecraft:the_end
